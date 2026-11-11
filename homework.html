@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>核风格小站 - 首页</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Microsoft YaHei",Arial,sans-serif;background:#f4f4f2;color:#333;font-size:14px}
+  header{background:#2b2b2b;color:#eee;padding:18px 24px}
+  header h1{margin:0;font-size:20px;letter-spacing:3px}
+  header p{margin:6px 0 0;font-size:13px;color:#aaa}
+  nav{background:#3a3a3a;display:flex;flex-wrap:wrap}
+  nav a{color:#ccc;text-decoration:none;padding:10px 14px;font-size:13px}
+  nav a:hover{background:#555;color:#fff}
+  .wrap{display:flex; gap:14px; max-width:1080px; margin:16px auto;padding:0 14px;align-items:flex-start}
+  .side{width:180px;flex:none;background:#fff;border:1px solid #ddd}
+  .side h3{margin:0;background:#e8e8e8;padding:8px 10px;font-size:13px;color:#555;font-weight:normal}
+  .side a{display:block;padding:8px 10px;color:#555;text-decoration:none;border-bottom:1px solid #eee;font-size:13px}
+  .side a:hover{background:#f0f0f0}
+  .main{flex:1;min-width:0;background:#fff;border:1px solid #ddd}
+  .bar{padding:8px 12px;background:#f7f7f7;border-bottom:1px solid #eee;font-size:12px;color:#999}
+  iframe{display:block;width:100%;height:640px;border:0}
+  footer{text-align:center;padding:22px;font-size:12px;color:#999}
+  @media(max-width:760px){.wrap{flex-direction:column}.side{width:100%}}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>各 种 核 风 格 介 绍 站</h1>
+  <p>Dreamcore / Poolcore / Weirdcore / Liminal Space / Vaporwave ...</p>
+</header>
+
+<div class="wrap">
+  <aside class="side">
+    <h3>风格列表</h3>
+    <a href="dreamcore.html"   target="mainFrame">01 梦核 Dreamcore</a>
+    <a href="poolcore.html"    target="mainFrame">02 池核 Poolcore</a>
+    <a href="weirdcore.html"   target="mainFrame">03 怪核 Weirdcore</a>
+    <a href="liminal.html"     target="mainFrame">04 阈限空间 Liminal Space</a>
+    <a href="vaporwave.html"   target="mainFrame">05 蒸汽波 Vaporwave</a>
+    <a href="angelcore.html"   target="mainFrame">06 天使核 Angelcore</a>
+    <a href="fairycore.html"   target="mainFrame">07 童话核 Fairycore</a>
+    <a href="traumacore.html"  target="mainFrame">08 伤核 TraumaCore</a>
+    <a href="webcore.html"     target="mainFrame">09 网核 Webcore</a>
+    <a href="kidcore.html"     target="mainFrame">10 儿童核 Kidcore</a>
+  </aside>
+
+  <div class="main">
+    <div class="bar">点击左侧框切换页面</div>
+    <iframe name="mainFrame" src="dreamcore.html" title="内容区"></iframe>
+  </div>
+</div>
+
+<footer>声明：唯一原创作者yzy</footer>
+<footer>有关图片源于网络，侵删</footer>
+
+</body>
+</html>
